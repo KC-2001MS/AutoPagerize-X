@@ -14,6 +14,48 @@
 		F7D854532998CFEB009E5CBF /* AutoPagerize_XTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D854522998CFEB009E5CBF /* AutoPagerize_XTests.swift */; };
 		F7D8545D2998CFEB009E5CBF /* AutoPagerize_XUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8545C2998CFEB009E5CBF /* AutoPagerize_XUITests.swift */; };
 		F7D8545F2998CFEB009E5CBF /* AutoPagerize_XUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8545E2998CFEB009E5CBF /* AutoPagerize_XUITestsLaunchTests.swift */; };
+		F7D854B72998D154009E5CBF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F7D854B62998D154009E5CBF /* _locales */; };
+		F7D854B92998D154009E5CBF /* images in Resources */ = {isa = PBXBuildFile; fileRef = F7D854B82998D154009E5CBF /* images */; };
+		F7D854C92998D154009E5CBF /* AutoPagerize X Extention iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7D854B12998D154009E5CBF /* AutoPagerize X Extention iOS.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7D854D42998D171009E5CBF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D854D32998D171009E5CBF /* SafariWebExtensionHandler.swift */; };
+		F7D854EA2998D171009E5CBF /* AutoPagerize X Extention macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7D854D12998D171009E5CBF /* AutoPagerize X Extention macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7D854EF2998D240009E5CBF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D854D32998D171009E5CBF /* SafariWebExtensionHandler.swift */; };
+		F7D8550C2998D296009E5CBF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7D854F62998D296009E5CBF /* manifest.json */; };
+		F7D8550D2998D296009E5CBF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7D854F62998D296009E5CBF /* manifest.json */; };
+		F7D8559A2998D6FD009E5CBF /* images in Resources */ = {isa = PBXBuildFile; fileRef = F7D854B82998D154009E5CBF /* images */; };
+		F7D8559B2998D720009E5CBF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F7D854B62998D154009E5CBF /* _locales */; };
+		F7D855E52998D9D0009E5CBF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D52998D9CF009E5CBF /* index.html */; };
+		F7D855E62998D9D0009E5CBF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D52998D9CF009E5CBF /* index.html */; };
+		F7D855E72998D9D0009E5CBF /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D62998D9CF009E5CBF /* loading.gif */; };
+		F7D855E82998D9D0009E5CBF /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D62998D9CF009E5CBF /* loading.gif */; };
+		F7D855E92998D9D0009E5CBF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D72998D9CF009E5CBF /* popup.js */; };
+		F7D855EA2998D9D0009E5CBF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D72998D9CF009E5CBF /* popup.js */; };
+		F7D855EB2998D9D0009E5CBF /* siteinfo.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D82998D9CF009E5CBF /* siteinfo.js */; };
+		F7D855EC2998D9D0009E5CBF /* siteinfo.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D82998D9CF009E5CBF /* siteinfo.js */; };
+		F7D855ED2998D9D0009E5CBF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D92998D9CF009E5CBF /* popup.html */; };
+		F7D855EE2998D9D0009E5CBF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855D92998D9CF009E5CBF /* popup.html */; };
+		F7D855EF2998D9D0009E5CBF /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DA2998D9CF009E5CBF /* options.css */; };
+		F7D855F02998D9D0009E5CBF /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DA2998D9CF009E5CBF /* options.css */; };
+		F7D855F12998D9D0009E5CBF /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DB2998D9CF009E5CBF /* options.js */; };
+		F7D855F22998D9D0009E5CBF /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DB2998D9CF009E5CBF /* options.js */; };
+		F7D855F32998D9D0009E5CBF /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DC2998D9CF009E5CBF /* loading.html */; };
+		F7D855F42998D9D0009E5CBF /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DC2998D9CF009E5CBF /* loading.html */; };
+		F7D855F52998D9D0009E5CBF /* 0f0.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DD2998D9CF009E5CBF /* 0f0.png */; };
+		F7D855F62998D9D0009E5CBF /* 0f0.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DD2998D9CF009E5CBF /* 0f0.png */; };
+		F7D855F72998D9D0009E5CBF /* autopagerizeuser.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DE2998D9CF009E5CBF /* autopagerizeuser.js */; };
+		F7D855F82998D9D0009E5CBF /* autopagerizeuser.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DE2998D9CF009E5CBF /* autopagerizeuser.js */; };
+		F7D855F92998D9D0009E5CBF /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DF2998D9CF009E5CBF /* background.html */; };
+		F7D855FA2998D9D0009E5CBF /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855DF2998D9CF009E5CBF /* background.html */; };
+		F7D855FB2998D9D0009E5CBF /* extension.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E02998D9CF009E5CBF /* extension.js */; };
+		F7D855FC2998D9D0009E5CBF /* extension.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E02998D9CF009E5CBF /* extension.js */; };
+		F7D855FD2998D9D0009E5CBF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E12998D9D0009E5CBF /* background.js */; };
+		F7D855FE2998D9D0009E5CBF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E12998D9D0009E5CBF /* background.js */; };
+		F7D855FF2998D9D0009E5CBF /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E22998D9D0009E5CBF /* options.html */; };
+		F7D856002998D9D0009E5CBF /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E22998D9D0009E5CBF /* options.html */; };
+		F7D856012998D9D0009E5CBF /* locale.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E32998D9D0009E5CBF /* locale.js */; };
+		F7D856022998D9D0009E5CBF /* locale.js in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E32998D9D0009E5CBF /* locale.js */; };
+		F7D856032998D9D0009E5CBF /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E42998D9D0009E5CBF /* error.html */; };
+		F7D856042998D9D0009E5CBF /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = F7D855E42998D9D0009E5CBF /* error.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +73,36 @@
 			remoteGlobalIDString = F7D8543C2998CFEA009E5CBF;
 			remoteInfo = "AutoPagerize X";
 		};
+		F7D854C72998D154009E5CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D854352998CFEA009E5CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D854B02998D154009E5CBF;
+			remoteInfo = "AutoPagerize X Extention iOS";
+		};
+		F7D854E82998D171009E5CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D854352998CFEA009E5CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D854D02998D171009E5CBF;
+			remoteInfo = "AutoPagerize X Extention macOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7D8548C2998D060009E5CBF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7D854C92998D154009E5CBF /* AutoPagerize X Extention iOS.appex in Embed Foundation Extensions */,
+				F7D854EA2998D171009E5CBF /* AutoPagerize X Extention macOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F7D8543D2998CFEA009E5CBF /* AutoPagerize X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoPagerize X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +116,31 @@
 		F7D854582998CFEB009E5CBF /* AutoPagerize XUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoPagerize XUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D8545C2998CFEB009E5CBF /* AutoPagerize_XUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoPagerize_XUITests.swift; sourceTree = "<group>"; };
 		F7D8545E2998CFEB009E5CBF /* AutoPagerize_XUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoPagerize_XUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7D854B12998D154009E5CBF /* AutoPagerize X Extention iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AutoPagerize X Extention iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D854B62998D154009E5CBF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F7D854B82998D154009E5CBF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F7D854C62998D154009E5CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D854D12998D171009E5CBF /* AutoPagerize X Extention macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AutoPagerize X Extention macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D854D32998D171009E5CBF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F7D854E62998D171009E5CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D854E72998D171009E5CBF /* AutoPagerize_X_Extention_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoPagerize_X_Extention_macOS.entitlements; sourceTree = "<group>"; };
+		F7D854F62998D296009E5CBF /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F7D855D52998D9CF009E5CBF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F7D855D62998D9CF009E5CBF /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		F7D855D72998D9CF009E5CBF /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F7D855D82998D9CF009E5CBF /* siteinfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = siteinfo.js; sourceTree = "<group>"; };
+		F7D855D92998D9CF009E5CBF /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F7D855DA2998D9CF009E5CBF /* options.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = options.css; sourceTree = "<group>"; };
+		F7D855DB2998D9CF009E5CBF /* options.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
+		F7D855DC2998D9CF009E5CBF /* loading.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = loading.html; sourceTree = "<group>"; };
+		F7D855DD2998D9CF009E5CBF /* 0f0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0f0.png; sourceTree = "<group>"; };
+		F7D855DE2998D9CF009E5CBF /* autopagerizeuser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autopagerizeuser.js; sourceTree = "<group>"; };
+		F7D855DF2998D9CF009E5CBF /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = background.html; sourceTree = "<group>"; };
+		F7D855E02998D9CF009E5CBF /* extension.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = extension.js; sourceTree = "<group>"; };
+		F7D855E12998D9D0009E5CBF /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		F7D855E22998D9D0009E5CBF /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		F7D855E32998D9D0009E5CBF /* locale.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = locale.js; sourceTree = "<group>"; };
+		F7D855E42998D9D0009E5CBF /* error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +165,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D854AE2998D154009E5CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D854CE2998D171009E5CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +188,9 @@
 				F7D8543F2998CFEA009E5CBF /* AutoPagerize X */,
 				F7D854512998CFEB009E5CBF /* AutoPagerize XTests */,
 				F7D8545B2998CFEB009E5CBF /* AutoPagerize XUITests */,
+				F7D854EE2998D227009E5CBF /* AutoPagerize X Extention */,
+				F7D854B22998D154009E5CBF /* AutoPagerize X Extention iOS */,
+				F7D854D22998D171009E5CBF /* AutoPagerize X Extention macOS */,
 				F7D8543E2998CFEA009E5CBF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +201,8 @@
 				F7D8543D2998CFEA009E5CBF /* AutoPagerize X.app */,
 				F7D8544E2998CFEB009E5CBF /* AutoPagerize XTests.xctest */,
 				F7D854582998CFEB009E5CBF /* AutoPagerize XUITests.xctest */,
+				F7D854B12998D154009E5CBF /* AutoPagerize X Extention iOS.appex */,
+				F7D854D12998D171009E5CBF /* AutoPagerize X Extention macOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +244,58 @@
 			path = "AutoPagerize XUITests";
 			sourceTree = "<group>";
 		};
+		F7D854B22998D154009E5CBF /* AutoPagerize X Extention iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7D854C62998D154009E5CBF /* Info.plist */,
+			);
+			path = "AutoPagerize X Extention iOS";
+			sourceTree = "<group>";
+		};
+		F7D854B52998D154009E5CBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7D855DD2998D9CF009E5CBF /* 0f0.png */,
+				F7D855DE2998D9CF009E5CBF /* autopagerizeuser.js */,
+				F7D855DF2998D9CF009E5CBF /* background.html */,
+				F7D855E12998D9D0009E5CBF /* background.js */,
+				F7D855E42998D9D0009E5CBF /* error.html */,
+				F7D855E02998D9CF009E5CBF /* extension.js */,
+				F7D855D52998D9CF009E5CBF /* index.html */,
+				F7D855D62998D9CF009E5CBF /* loading.gif */,
+				F7D855DC2998D9CF009E5CBF /* loading.html */,
+				F7D855E32998D9D0009E5CBF /* locale.js */,
+				F7D855DA2998D9CF009E5CBF /* options.css */,
+				F7D855E22998D9D0009E5CBF /* options.html */,
+				F7D855DB2998D9CF009E5CBF /* options.js */,
+				F7D855D92998D9CF009E5CBF /* popup.html */,
+				F7D855D72998D9CF009E5CBF /* popup.js */,
+				F7D855D82998D9CF009E5CBF /* siteinfo.js */,
+				F7D854F62998D296009E5CBF /* manifest.json */,
+				F7D854B62998D154009E5CBF /* _locales */,
+				F7D854B82998D154009E5CBF /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7D854D22998D171009E5CBF /* AutoPagerize X Extention macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7D854E62998D171009E5CBF /* Info.plist */,
+				F7D854E72998D171009E5CBF /* AutoPagerize_X_Extention_macOS.entitlements */,
+			);
+			path = "AutoPagerize X Extention macOS";
+			sourceTree = "<group>";
+		};
+		F7D854EE2998D227009E5CBF /* AutoPagerize X Extention */ = {
+			isa = PBXGroup;
+			children = (
+				F7D854D32998D171009E5CBF /* SafariWebExtensionHandler.swift */,
+				F7D854B52998D154009E5CBF /* Resources */,
+			);
+			path = "AutoPagerize X Extention";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +306,13 @@
 				F7D854392998CFEA009E5CBF /* Sources */,
 				F7D8543A2998CFEA009E5CBF /* Frameworks */,
 				F7D8543B2998CFEA009E5CBF /* Resources */,
+				F7D8548C2998D060009E5CBF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7D854C82998D154009E5CBF /* PBXTargetDependency */,
+				F7D854E92998D171009E5CBF /* PBXTargetDependency */,
 			);
 			name = "AutoPagerize X";
 			productName = "AutoPagerize X";
@@ -185,6 +355,40 @@
 			productReference = F7D854582998CFEB009E5CBF /* AutoPagerize XUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F7D854B02998D154009E5CBF /* AutoPagerize X Extention iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D854CA2998D154009E5CBF /* Build configuration list for PBXNativeTarget "AutoPagerize X Extention iOS" */;
+			buildPhases = (
+				F7D854AD2998D154009E5CBF /* Sources */,
+				F7D854AE2998D154009E5CBF /* Frameworks */,
+				F7D854AF2998D154009E5CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoPagerize X Extention iOS";
+			productName = "AutoPagerize X Extention iOS";
+			productReference = F7D854B12998D154009E5CBF /* AutoPagerize X Extention iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F7D854D02998D171009E5CBF /* AutoPagerize X Extention macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D854EB2998D171009E5CBF /* Build configuration list for PBXNativeTarget "AutoPagerize X Extention macOS" */;
+			buildPhases = (
+				F7D854CD2998D171009E5CBF /* Sources */,
+				F7D854CE2998D171009E5CBF /* Frameworks */,
+				F7D854CF2998D171009E5CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoPagerize X Extention macOS";
+			productName = "AutoPagerize X Extention macOS";
+			productReference = F7D854D12998D171009E5CBF /* AutoPagerize X Extention macOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +410,12 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = F7D8543C2998CFEA009E5CBF;
 					};
+					F7D854B02998D154009E5CBF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F7D854D02998D171009E5CBF = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = F7D854382998CFEA009E5CBF /* Build configuration list for PBXProject "AutoPagerize X" */;
@@ -224,6 +434,8 @@
 				F7D8543C2998CFEA009E5CBF /* AutoPagerize X */,
 				F7D8544D2998CFEB009E5CBF /* AutoPagerize XTests */,
 				F7D854572998CFEB009E5CBF /* AutoPagerize XUITests */,
+				F7D854B02998D154009E5CBF /* AutoPagerize X Extention iOS */,
+				F7D854D02998D171009E5CBF /* AutoPagerize X Extention macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +461,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D854AF2998D154009E5CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D855F92998D9D0009E5CBF /* background.html in Resources */,
+				F7D855F72998D9D0009E5CBF /* autopagerizeuser.js in Resources */,
+				F7D855F52998D9D0009E5CBF /* 0f0.png in Resources */,
+				F7D856032998D9D0009E5CBF /* error.html in Resources */,
+				F7D854B92998D154009E5CBF /* images in Resources */,
+				F7D856012998D9D0009E5CBF /* locale.js in Resources */,
+				F7D855FF2998D9D0009E5CBF /* options.html in Resources */,
+				F7D855ED2998D9D0009E5CBF /* popup.html in Resources */,
+				F7D855EF2998D9D0009E5CBF /* options.css in Resources */,
+				F7D855E92998D9D0009E5CBF /* popup.js in Resources */,
+				F7D855E52998D9D0009E5CBF /* index.html in Resources */,
+				F7D855FD2998D9D0009E5CBF /* background.js in Resources */,
+				F7D855E72998D9D0009E5CBF /* loading.gif in Resources */,
+				F7D855FB2998D9D0009E5CBF /* extension.js in Resources */,
+				F7D8550C2998D296009E5CBF /* manifest.json in Resources */,
+				F7D854B72998D154009E5CBF /* _locales in Resources */,
+				F7D855EB2998D9D0009E5CBF /* siteinfo.js in Resources */,
+				F7D855F12998D9D0009E5CBF /* options.js in Resources */,
+				F7D855F32998D9D0009E5CBF /* loading.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D854CF2998D171009E5CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D855FA2998D9D0009E5CBF /* background.html in Resources */,
+				F7D855F82998D9D0009E5CBF /* autopagerizeuser.js in Resources */,
+				F7D855F62998D9D0009E5CBF /* 0f0.png in Resources */,
+				F7D856042998D9D0009E5CBF /* error.html in Resources */,
+				F7D8559A2998D6FD009E5CBF /* images in Resources */,
+				F7D856022998D9D0009E5CBF /* locale.js in Resources */,
+				F7D856002998D9D0009E5CBF /* options.html in Resources */,
+				F7D855EE2998D9D0009E5CBF /* popup.html in Resources */,
+				F7D855F02998D9D0009E5CBF /* options.css in Resources */,
+				F7D855EA2998D9D0009E5CBF /* popup.js in Resources */,
+				F7D855E62998D9D0009E5CBF /* index.html in Resources */,
+				F7D855FE2998D9D0009E5CBF /* background.js in Resources */,
+				F7D855E82998D9D0009E5CBF /* loading.gif in Resources */,
+				F7D855FC2998D9D0009E5CBF /* extension.js in Resources */,
+				F7D8550D2998D296009E5CBF /* manifest.json in Resources */,
+				F7D8559B2998D720009E5CBF /* _locales in Resources */,
+				F7D855EC2998D9D0009E5CBF /* siteinfo.js in Resources */,
+				F7D855F22998D9D0009E5CBF /* options.js in Resources */,
+				F7D855F42998D9D0009E5CBF /* loading.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +545,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D854AD2998D154009E5CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D854EF2998D240009E5CBF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D854CD2998D171009E5CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D854D42998D171009E5CBF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +573,20 @@
 			isa = PBXTargetDependency;
 			target = F7D8543C2998CFEA009E5CBF /* AutoPagerize X */;
 			targetProxy = F7D854592998CFEB009E5CBF /* PBXContainerItemProxy */;
+		};
+		F7D854C82998D154009E5CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = F7D854B02998D154009E5CBF /* AutoPagerize X Extention iOS */;
+			targetProxy = F7D854C72998D154009E5CBF /* PBXContainerItemProxy */;
+		};
+		F7D854E92998D171009E5CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
+			target = F7D854D02998D171009E5CBF /* AutoPagerize X Extention macOS */;
+			targetProxy = F7D854E82998D171009E5CBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,6 +703,7 @@
 		F7D854632998CFEB009E5CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "AutoPagerize X/AutoPagerize_X.entitlements";
@@ -447,6 +742,7 @@
 		F7D854642998CFEB009E5CBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "AutoPagerize X/AutoPagerize_X.entitlements";
@@ -572,6 +868,133 @@
 			};
 			name = Release;
 		};
+		F7D854CB2998D154009E5CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AutoPagerize X Extention iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoPagerize X Extention iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention3.AutoPagerize-X.AutoPagerize-X-Extention-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D854CC2998D154009E5CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AutoPagerize X Extention iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoPagerize X Extention iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention3.AutoPagerize-X.AutoPagerize-X-Extention-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D854EC2998D171009E5CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AutoPagerize X Extention macOS/AutoPagerize_X_Extention_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AutoPagerize X Extention macOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoPagerize X Extention macOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention3.AutoPagerize-X.AutoPagerize-X-Extention-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7D854ED2998D171009E5CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AutoPagerize X Extention macOS/AutoPagerize_X_Extention_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AutoPagerize X Extention macOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoPagerize X Extention macOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention3.AutoPagerize-X.AutoPagerize-X-Extention-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,6 +1030,24 @@
 			buildConfigurations = (
 				F7D854692998CFEB009E5CBF /* Debug */,
 				F7D8546A2998CFEB009E5CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D854CA2998D154009E5CBF /* Build configuration list for PBXNativeTarget "AutoPagerize X Extention iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D854CB2998D154009E5CBF /* Debug */,
+				F7D854CC2998D154009E5CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D854EB2998D171009E5CBF /* Build configuration list for PBXNativeTarget "AutoPagerize X Extention macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D854EC2998D171009E5CBF /* Debug */,
+				F7D854ED2998D171009E5CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
