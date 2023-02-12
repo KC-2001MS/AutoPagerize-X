@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  AutoPagerize X
+
+  Created by 茅根啓介 on 2023/02/13.
+  
+*/
+
+//ContentView
+"Welcome" = "Welcome";
+"About AutoPagerize X App" = "AutoPagerize X is a Safari extension that provides efficient web browsing.";
+"Function1" = "Automatic loading and splicing display";
+"Function1 Contents" = "It is a browser extension that automatically loads and splices web pages divided by page for display.
+AutoPagerize can be used with a variety of Web sites to provide efficient Web browsing.";
+"1 Contents" = "1. Settings synchronization may not be complete depending on network conditions and the number of times settings are changed.";
+"How to Acitvate" = "How to Acitvate";
+"Step1 Title" = "Step1 Open Safari Settings";
+"Step1 Contents" = "Open Safari Settings and go to the Extensions screen or Extensions tab.";
+"Step2 Title" = "Step2 Enable Extensions";
+"Step2 Contents" = "urn on the item \"Word Filter X\" on the Extensions screen or Extensions tab.";
+"Step3 Title" = "Step3 Permit Sccess";
+"Step3 Contents" = "From the Access Rights section, allow access to \"All Web Sites\" or \"Other Web Sites\".";
+"Step4 Title" = "Step4 Add words to be blocked";
+"Step4 Contents" = "Register the words to be blocked on the settings screen in this application.";
+"Extension Source" = "About the Source of the Extension";
+"Extension Source Contents" = "This extension is a derivative of the \"AutoPagerize\" extension. As such, the code portion of this application is subject to OSS conventions.";
+"※ Contents" = "*This extension may not work with URLs that are not registered in the database.";
+//InfoView
+"AutoPagerize X Info" = "AutoPagerize X Info";
+"Copyrights" = "Copyrights";
+"© 2023 Keisuke Chinone" = "© 2023 Keisuke Chinone";
+"Cooperation and Contribution" = "Cooperation and Contribution";
+"Web Extention" = "Web Extention";
+"Youhei Sawada" = "Youhei Sawada";
+//"SwiftUI"
+"Keisuke Chinone" = "Keisuke Chinone";
+"Share App" = "Share App";
+"Share App Contents" = "If you would like to share this app, please share the App Store URL below.";
+"AutoPagerize X App" = "AutoPagerize X App";
+"Feedback" = "Feedback";
+"Feedback Contents" = "If you have any questions or feedback, please use the GitHub repository below, or if you do not have a gitHub account, we can be contacted via email address.";
+//"feedback@bondavi.jp"
+"Feedback Mail" = "mailto:iroiro.work1234@gmail.com?subject=Feedback+and+requests+for+Word+Filter+X"; //Feedback and requests for Word Filter X
+"Review" = "Review";
+"Review Contents" = "If you like this application, please submit a review.";
+"Submit" = "Submit";

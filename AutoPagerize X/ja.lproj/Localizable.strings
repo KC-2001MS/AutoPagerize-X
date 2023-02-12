@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  AutoPagerize X
+
+  Created by 茅根啓介 on 2023/02/13.
+  
+*/
+
+//ContentView
+"Welcome" = "ようこそ";
+"About AutoPagerize X App" = "AutoPagerize Xは効率的なWebブラウジングを提供するSafari拡張機能です。";
+"Function1" = "自動で読み込み、継ぎ足し表示";
+"Function1 Contents" = "ページごとに分けられたWebページを自動で読み込み継ぎ足し表示を行うブラウザ拡張です。
+AutoPagerizeは様々なWebサイトで利用でき、効率的なWebブラウジングを提供します。";
+"1 Contents" = "1. 条件を満たす全てのページで動作するわけではありません。";
+"How to Acitvate" = "有効化方法";
+"Step1 Title" = "Step1 Safariの設定を起動";
+"Step1 Contents" = "Safariの設定を開き、拡張機能画面もしくは機能拡張タブに遷移します。";
+"Step2 Title" = "Step2 拡張機能をオン";
+"Step2 Contents" = "拡張機能画面もしくは機能拡張タブ上にある「Word Filter X」という項目をオンにします。";
+"Step3 Title" = "Step3 アクセスを許可";
+"Step3 Contents" = "アクセス権の項目から、「すべてのWebサイト」または「その他のWebサイト」のアクセスを許可します。";
+"Step4 Title" = "Step4 ブロックする単語を追加";
+"Step4 Contents" = "このアプリ内にある設定画面で、ブロックする単語を登録します。";
+"Extension Source" = "拡張機能のソースについて";
+"Extension Source Contents" = "この拡張機能は、「AutoPagerize」拡張機能を元として開発された派生版となります。そのため、このアプリケーションのコード部分はOSSの規約に従います。";
+"※ Contents" = "※データベースに登録されていないURLでは、この拡張機能が機能しない場合がございます。";
+//InfoView
+"AutoPagerize X Info" = "このアプリの情報";
+"Copyrights" = "著作権";
+"© 2023 Keisuke Chinone" = "© 2023 茅根 啓介";
+"Cooperation and Contribution" = "協力と貢献";
+"Web Extention" = "Web拡張機能";
+"Youhei Sawada" = "沢田 洋平";
+//"SwiftUI"
+"Keisuke Chinone" = "茅根 啓介";
+"Share App" = "アプリを共有";
+"Share App Contents" = "このアプリを共有したい場合は、以下のApp StoreのURLを共有ください。";
+"AutoPagerize X App" = "AutoPagerize Xアプリ";
+"Feedback" = "フィードバック";
+"Feedback Contents" = "質問やフィードバックがありましたら、下記のGitHubリポジトリでお願いします。gitHubアカウントを持っていない方はメールアドレスでの連絡も受け付けます。";
+//"feedback@bondavi.jp"
+"Feedback Mail" = "mailto:iroiro.work1234@gmail.com?subject=AutoPagerize+X%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%81%A8%E8%A6%81%E6%9C%9B"; //AutoPagerize Xのフィードバックと要望
+"Review" = "レビュー";
+"Review Contents" = "このアプリを気に入られましたら、是非ともレビューの投稿をお願いいたします。";
+"Submit" = "提出";

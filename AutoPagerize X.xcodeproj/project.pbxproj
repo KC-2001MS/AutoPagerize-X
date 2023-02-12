@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F768ED3F2999548600CAD145 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768ED3E2999548600CAD145 /* InfoView.swift */; };
+		F768ED422999579900CAD145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F768ED442999579900CAD145 /* Localizable.strings */; };
 		F7D854412998CFEA009E5CBF /* AutoPagerize_XApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D854402998CFEA009E5CBF /* AutoPagerize_XApp.swift */; };
 		F7D854432998CFEA009E5CBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D854422998CFEA009E5CBF /* ContentView.swift */; };
 		F7D854452998CFEB009E5CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D854442998CFEB009E5CBF /* Assets.xcassets */; };
@@ -105,6 +107,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F768ED3E2999548600CAD145 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F768ED432999579900CAD145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F768ED452999579C00CAD145 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7D8543D2998CFEA009E5CBF /* AutoPagerize X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoPagerize X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D854402998CFEA009E5CBF /* AutoPagerize_XApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoPagerize_XApp.swift; sourceTree = "<group>"; };
 		F7D854422998CFEA009E5CBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -212,7 +217,9 @@
 			children = (
 				F7D854402998CFEA009E5CBF /* AutoPagerize_XApp.swift */,
 				F7D854422998CFEA009E5CBF /* ContentView.swift */,
+				F768ED3E2999548600CAD145 /* InfoView.swift */,
 				F7D854442998CFEB009E5CBF /* Assets.xcassets */,
+				F768ED442999579900CAD145 /* Localizable.strings */,
 				F7D854462998CFEB009E5CBF /* AutoPagerize_X.entitlements */,
 				F7D854472998CFEB009E5CBF /* Preview Content */,
 			);
@@ -425,6 +432,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = F7D854342998CFEA009E5CBF;
 			productRefGroup = F7D8543E2998CFEA009E5CBF /* Products */;
@@ -446,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D854492998CFEB009E5CBF /* Preview Assets.xcassets in Resources */,
+				F768ED422999579900CAD145 /* Localizable.strings in Resources */,
 				F7D854452998CFEB009E5CBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D854432998CFEA009E5CBF /* ContentView.swift in Sources */,
+				F768ED3F2999548600CAD145 /* InfoView.swift in Sources */,
 				F7D854412998CFEA009E5CBF /* AutoPagerize_XApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,6 +599,18 @@
 			targetProxy = F7D854E82998D171009E5CBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F768ED442999579900CAD145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F768ED432999579900CAD145 /* en */,
+				F768ED452999579C00CAD145 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F7D854602998CFEB009E5CBF /* Debug */ = {

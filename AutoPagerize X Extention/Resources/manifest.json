@@ -16,7 +16,7 @@
     "page_action": {
       "default_title": "Autopagerize for Chrome",
       "default_popup": "popup.html",
-      "default_icon": "images/icon16.png"
+      "default_icon": "images/icon-16.png"
     },
     "background": {
       "page": "background.html"
