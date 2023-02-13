@@ -10,14 +10,14 @@
 "Welcome" = "Welcome";
 "About AutoPagerize X App" = "AutoPagerize X is a Safari extension that provides efficient web browsing.";
 "Function1" = "Automatic loading and splicing display";
-"Function1 Contents" = "It is a browser extension that automatically loads and splices web pages divided by page for display.
-AutoPagerize can be used with a variety of Web sites to provide efficient Web browsing.";
+"Function1 Contents" = "This is a Safari extension that automatically reads web pages divided over several pages and displays them in succession.
+AutoPagerize X is available for a variety of supported websites. There is no need to move pages around and reload them again.";
 "1 Contents" = "1. Settings synchronization may not be complete depending on network conditions and the number of times settings are changed.";
 "How to Acitvate" = "How to Acitvate";
 "Step1 Title" = "Step1 Open Safari Settings";
 "Step1 Contents" = "Open Safari Settings and go to the Extensions screen or Extensions tab.";
 "Step2 Title" = "Step2 Enable Extensions";
-"Step2 Contents" = "urn on the item \"Word Filter X\" on the Extensions screen or Extensions tab.";
+"Step2 Contents" = "urn on the item \"AutoPagerize X\" on the Extensions screen or Extensions tab.";
 "Step3 Title" = "Step3 Permit Sccess";
 "Step3 Contents" = "From the Access Rights section, allow access to \"All Web Sites\" or \"Other Web Sites\".";
 "Step4 Title" = "Step4 Add words to be blocked";
@@ -28,8 +28,14 @@ AutoPagerize can be used with a variety of Web sites to provide efficient Web br
 //InfoView
 "AutoPagerize X Info" = "AutoPagerize X Info";
 "Copyrights" = "Copyrights";
+"AutoPagerize" = "AutoPagerize";
+"© 2018 Youhei Sawada" = "© 2018 Youhei Sawada";
+"App" = "App";
 "© 2023 Keisuke Chinone" = "© 2023 Keisuke Chinone";
+"Source Code" = "Source Code";
+"Source Code Contents" = "The source code is available in the following repositories Changes in this repository will result in the release of the next version, and we would appreciate your cooperation. Redistribution of the source code must be in accordance with the terms of the license.";
 "Cooperation and Contribution" = "Cooperation and Contribution";
+"Cooperation and Contribution Contents" = "This application is operated as OSS. The following people have been involved in the creation of this application or have improved the application. (Only those who have requested to be listed here)";
 "Web Extention" = "Web Extention";
 "Youhei Sawada" = "Youhei Sawada";
 //"SwiftUI"
@@ -44,3 +50,4 @@ AutoPagerize can be used with a variety of Web sites to provide efficient Web br
 "Review" = "Review";
 "Review Contents" = "If you like this application, please submit a review.";
 "Submit" = "Submit";
+"Done" = "Done";

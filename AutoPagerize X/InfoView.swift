@@ -21,19 +21,26 @@ struct InfoView: View {
                             .font(.title)
                             .bold()
                             .foregroundColor(.blue)
+                        
                         HStack(alignment: .center) {
-                            Text("Web Extention")
+                            Text("AutoPagerize")
                                 .font(.title2)
+                            
                             Spacer()
+                            
                             VStack(alignment: .trailing,spacing: 5) {
-                                Text("© 2022 test")
+                                Text("© 2018 Youhei Sawada")
                             }
                         }
+                        
                         Divider()
+                        
                         HStack(alignment: .center) {
                             Text("App")
                                 .font(.title2)
+                            
                             Spacer()
+                            
                             VStack(alignment: .trailing,spacing: 5) {
                                 Text("© 2023 Keisuke Chinone")
                             }
@@ -41,12 +48,27 @@ struct InfoView: View {
                     }
                     
                     VStack(alignment: .leading,spacing: 5) {
+                        Text("Source Code")
+                            .font(.title)
+                            .bold()
+                            .foregroundColor(.blue)
+                        
+                        Text("Source Code Contents")
+                        
+                        Link("github.com",
+                             destination: URL(string: "https://github.com/KC-2001MS/AutoPagerize-X")!)
+                    }
+                    
+                    VStack(alignment: .leading,spacing: 5) {
                         Text("Cooperation and Contribution")
                             .font(.title)
                             .bold()
                             .foregroundColor(.blue)
+                        
+                        Text("Cooperation and Contribution Contents")
+                        
                         HStack(alignment: .center) {
-                            Text("Web Extention")
+                            Text("AutoPagerize")
                                 .font(.title2)
                             Spacer()
                             VStack(alignment: .trailing,spacing: 5) {
@@ -54,11 +76,29 @@ struct InfoView: View {
                                      destination: URL(string: "http://autopagerize.net")!)
                             }
                         }
+                        
                         Divider()
+                        
+                        HStack(alignment: .center) {
+                            Text("Web Extention")
+                                .font(.title2)
+                            
+                            Spacer()
+                            
+                            VStack(alignment: .trailing,spacing: 5) {
+                                Link("Keisuke Chinone",
+                                     destination: URL(string: "https://github.com/KC-2001MS")!)
+                            }
+                        }
+                        
+                        Divider()
+                        
                         HStack(alignment: .center) {
                             Text("SwiftUI")
                                 .font(.title2)
+                            
                             Spacer()
+                            
                             VStack(alignment: .trailing,spacing: 5) {
                                 Link("Keisuke Chinone",
                                      destination: URL(string: "https://github.com/KC-2001MS")!)
@@ -82,6 +122,7 @@ struct InfoView: View {
                             .font(.title)
                             .bold()
                             .foregroundColor(.blue)
+                        
                         Text("Feedback Contents")
                         
                         Link("github.com",
@@ -96,9 +137,12 @@ struct InfoView: View {
                             .font(.title)
                             .bold()
                             .foregroundColor(.blue)
+                        
                         Text("Review Contents")
+                        
                         Spacer()
                             .frame(height: 20)
+                        
                         Button(action: {
                             requestReview()
                         }) {
@@ -107,16 +151,13 @@ struct InfoView: View {
                                 .frame(height: 40)
                         }
                         .buttonStyle(.borderedProminent)
-                        
                     }
-                    
-                    
                 }
                 .padding()
             }
             .frame(alignment: .leading)
             .frame(maxWidth: .infinity)
-            .navigationTitle("Word Filter X Info")
+            .navigationTitle("AutoPagerize X Info")
 #if os(iOS)
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {

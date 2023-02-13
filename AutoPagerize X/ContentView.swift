@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isOpenInfo = false
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -88,7 +90,20 @@ struct ContentView: View {
             .frame(alignment: .leading)
             .frame(maxWidth: .infinity)
             .navigationTitle("Welcome")
-#if os(macOS)
+            #if os(iOS)
+            .sheet(isPresented: $isOpenInfo) {
+                InfoView()
+            }
+            .toolbar(id:"toolbar") {
+                ToolbarItem(id: "info",placement: .primaryAction) {
+                    Button(action: {
+                        isOpenInfo = true
+                    }) {
+                        Image(systemName: "info.circle")
+                    }
+                }
+            }
+#elseif os(macOS)
             .frame(minWidth: 400,idealWidth: 600,minHeight: 300, idealHeight: 400)
 #endif
         }
