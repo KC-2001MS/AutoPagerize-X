@@ -5,7 +5,7 @@
     },
     
     "description": {
-        "message": "A browser Extension for auto loading paginated web pages. AutoPagerize use in many web site, and provide efficiently web browsing."
+        "message": "A browser Extension for auto loading paginated web pages."
     },
     "options" : {
         "message": "Options"

@@ -19,7 +19,8 @@
       "default_icon": "images/icon-16.png"
     },
     "background": {
-      "page": "background.html"
+      "page": "background.html",
+      "persistent": false
     },
     "options_ui": { "page": "options.html" },
     "homepage_url": "http://autopagerize.net/",
