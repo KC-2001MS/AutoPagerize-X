@@ -3,7 +3,10 @@
   AutoPagerize X
 
   Created by 茅根啓介 on 2023/02/13.
-  
+ 
+ This program is licensed under the "GNU General Public License v3.0".
+ © 2023 Keisuke Chinone
+ Program files that are not marked with a copyright notice are not originally marked.
 */
 
 //ContentView
@@ -29,7 +32,7 @@ AutoPagerize Xは対応する様々なWebサイトで利用できます。もう
 "AutoPagerize X Info" = "このアプリの情報";
 "Copyrights" = "著作権";
 "AutoPagerize" = "AutoPagerize";
-"© 2018 Youhei Sawada" = "© 2018 沢田 洋平";
+"© 2010 swdyh" = "© 2010 swdyh";
 "App" = "アプリ";
 "© 2023 Keisuke Chinone" = "© 2023 茅根 啓介";
 "Source Code" = "ソースコード";
@@ -37,8 +40,7 @@ AutoPagerize Xは対応する様々なWebサイトで利用できます。もう
 "Cooperation and Contribution" = "協力と貢献";
 "Cooperation and Contribution Contents" = "このアプリケーションはOSSとして運営されております。このアプリケーションの作成に関わられた方やアプリを改良してくださった方は以下の方々です。（だたし、ここでの記載を希望された方のみ）";
 "Web Extention" = "Web拡張機能";
-"Youhei Sawada" = "沢田 洋平";
-//"SwiftUI"
+"SwiftUI" = "SwiftUI";
 "Keisuke Chinone" = "茅根 啓介";
 "Share App" = "アプリを共有";
 "Share App Contents" = "このアプリを共有したい場合は、以下のApp StoreのURLを共有ください。";

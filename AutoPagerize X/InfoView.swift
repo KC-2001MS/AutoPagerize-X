@@ -3,7 +3,10 @@
 //  AutoPagerize X
 //
 //  Created by 茅根啓介 on 2023/02/13.
-//
+
+//This program is licensed under the "GNU General Public License v3.0".
+//© 2023 Keisuke Chinone
+//Program files that are not marked with a copyright notice are not originally marked.
 
 import SwiftUI
 import StoreKit
@@ -29,7 +32,7 @@ struct InfoView: View {
                             Spacer()
                             
                             VStack(alignment: .trailing,spacing: 5) {
-                                Text("© 2018 Youhei Sawada")
+                                Text("© 2010 swdyh")
                             }
                         }
                         
@@ -66,18 +69,6 @@ struct InfoView: View {
                             .foregroundColor(.blue)
                         
                         Text("Cooperation and Contribution Contents")
-                        
-                        HStack(alignment: .center) {
-                            Text("AutoPagerize")
-                                .font(.title2)
-                            Spacer()
-                            VStack(alignment: .trailing,spacing: 5) {
-                                Link("Youhei Sawada",
-                                     destination: URL(string: "http://autopagerize.net")!)
-                            }
-                        }
-                        
-                        Divider()
                         
                         HStack(alignment: .center) {
                             Text("Web Extention")

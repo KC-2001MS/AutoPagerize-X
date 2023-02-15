@@ -4,6 +4,9 @@
 
   Created by 茅根啓介 on 2023/02/13.
   
+  This program is licensed under the "GNU General Public License v3.0".
+  © 2023 Keisuke Chinone
+  Program files that are not marked with a copyright notice are not originally marked.
 */
 
 //ContentView
@@ -29,7 +32,7 @@ AutoPagerize X is available for a variety of supported websites. There is no nee
 "AutoPagerize X Info" = "AutoPagerize X Info";
 "Copyrights" = "Copyrights";
 "AutoPagerize" = "AutoPagerize";
-"© 2018 Youhei Sawada" = "© 2018 Youhei Sawada";
+"© 2010 swdyh" = "© 2010 swdyh";
 "App" = "App";
 "© 2023 Keisuke Chinone" = "© 2023 Keisuke Chinone";
 "Source Code" = "Source Code";
@@ -37,8 +40,7 @@ AutoPagerize X is available for a variety of supported websites. There is no nee
 "Cooperation and Contribution" = "Cooperation and Contribution";
 "Cooperation and Contribution Contents" = "This application is operated as OSS. The following people have been involved in the creation of this application or have improved the application. (Only those who have requested to be listed here)";
 "Web Extention" = "Web Extention";
-"Youhei Sawada" = "Youhei Sawada";
-//"SwiftUI"
+"SwiftUI" = "SwiftUI";
 "Keisuke Chinone" = "Keisuke Chinone";
 "Share App" = "Share App";
 "Share App Contents" = "If you would like to share this app, please share the App Store URL below.";
