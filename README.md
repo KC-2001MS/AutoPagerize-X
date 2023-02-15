@@ -11,4 +11,5 @@ The code cited is under the "GNU General Public License v3.0". Therefore, this r
 
 ## Copyright
 The application part is copyrighted below.
+
 © 2023 Keisuke Chinone
