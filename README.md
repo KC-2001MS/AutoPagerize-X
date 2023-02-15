@@ -2,8 +2,7 @@
 A Safari extension for automatically loading paginated web pages, converted from AutoPagerize for Chrome to work with Safari extensions.
 
 ## Source of code
-[AutoPagerize for Chrome]: https://github.com/swdyh/autopagerize_for_chrome
-
+[AutoPagerize for Chrome](https://github.com/swdyh/autopagerize_for_chrome)
 ## Available Environment
 iOS 16.2, macOS 13.1
 
