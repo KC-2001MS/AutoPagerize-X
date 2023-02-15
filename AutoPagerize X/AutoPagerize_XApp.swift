@@ -8,6 +8,7 @@
 //© 2023 Keisuke Chinone
 //Program files that are not marked with a copyright notice are not originally marked.
 
+
 import SwiftUI
 
 @main

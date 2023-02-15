@@ -7,6 +7,8 @@
 //This program is licensed under the "GNU General Public License v3.0".
 //© 2023 Keisuke Chinone
 //Program files that are not marked with a copyright notice are not originally marked.
+
+
 import XCTest
 
 final class AutoPagerize_XUITests: XCTestCase {
