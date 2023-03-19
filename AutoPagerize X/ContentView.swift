@@ -13,6 +13,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isOpenInfo = false
+    @Environment(\.openWindow) private var openWindow
     
     var body: some View {
         NavigationStack {
@@ -109,6 +110,26 @@ struct ContentView: View {
             }
 #elseif os(macOS)
             .frame(minWidth: 400,idealWidth: 600,minHeight: 300, idealHeight: 400)
+            .touchBar {
+                Button(action: {
+                    NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
+                }){
+                    Image(systemName: "gear")
+                        .font(.title2)
+                        .padding(17.5)
+                }
+                .touchBarItemPresence(.required("gearKey"))
+
+                
+                Button(action: {
+                    openWindow(id: "info")
+                }){
+                    Image(systemName: "info.circle")
+                        .font(.title2)
+                        .padding(17.5)
+                }
+                .touchBarItemPresence(.required("questionmarkKey"))
+            }
 #endif
         }
     }

@@ -14,7 +14,7 @@ var excludes = [
 function init() {
     if (!localStorage['settings']) {
         var defaultSettings = {
-            extension_path: chrome.runtime.getURL(''),
+            extension_path: chrome.extension.getURL(''),
             display_message_bar: true,
             exclude_patterns: localStorage['exclude_patterns'] || ''
         }
@@ -44,7 +44,7 @@ function init() {
                 var tabid = con.sender.tab.id
                 chrome.pageAction.show(tabid)
                 chrome.pageAction.setIcon({
-                    tabId:tabid, path: 'images/icon-16.png'
+                    tabId:tabid, path: 'icons/icon16.png'
                 })
             }
             else if (message.name == 'siteinfo_meta') {

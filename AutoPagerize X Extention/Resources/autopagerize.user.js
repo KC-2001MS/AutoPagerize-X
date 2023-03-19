@@ -156,6 +156,10 @@ AutoPager.prototype.initMessageBar = function() {
     frame.scrolling = 'no'
     this.messageFrame = frame
 
+    // Replaced code
+    var u = browser.runtime.getURL("loading.html");
+    /* This code does not work with Safari extensions, so convert to the code above
+     
     // no icon.
     var u = 'data:text/html;base64,PGh0bWw+CjxoZWFkPgo8c3R5bGU+CmJvZHkgewogIG1hcmdpbjogMDsKICBwYWRkaW5nOiA0cHggMCAwIDEwcHg7CiAgY29sb3I6ICNmZmY7CiAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDsKICBmb250LXNpemU6IDEycHg7CiAgdGV4dC1hbGlnbjogY2VudGVyOwp9CmltZyB7CiAgdmVydGljYWwtYWxpZ246IHRvcDsKfQo8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5PkxvYWRpbmcuLi48L2JvZHk+CjwvaHRtbD4K'
     if (settings['extension_path']) {
@@ -164,6 +168,8 @@ AutoPager.prototype.initMessageBar = function() {
     else if (settings['loading_html']) {
         u = settings['loading_html']
     }
+     
+    */
     this.messageFrame.src = u
     document.body.appendChild(frame)
 }
@@ -364,6 +370,11 @@ AutoPager.prototype.error = function() {
     window.removeEventListener('scroll', this.scroll, false)
     if (this.messageFrame) {
         var mf = this.messageFrame
+        
+        // Replaced code
+        var u = browser.runtime.getURL("error.html");
+        /* This code does not work with Safari extensions, so convert to the code above
+         
         var u = 'data:text/html;base64,PGh0bWw+CjxoZWFkPgo8c3R5bGU+CmJvZHkgewogIG1hcmdpbjogMDsKICBwYWRkaW5nOiA0cHggMCAwIDEwcHg7CiAgY29sb3I6ICNmZmY7CiAgYmFja2dyb3VuZC1jb2xvcjogI2EwMDsKICBmb250LXNpemU6IDEycHg7CiAgdGV4dC1hbGlnbjogY2VudGVyOwp9CmltZyB7CiAgdmVydGljYWwtYWxpZ246IHRvcDsKfQo8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5PkVycm9yITwvYm9keT4KPC9odG1sPgo='
         if (settings['extension_path']) {
             u = settings['extension_path'] + 'error.html'
@@ -371,6 +382,9 @@ AutoPager.prototype.error = function() {
         else if (settings['error_html']) {
             u = settings['error_html']
         }
+        
+       */
+        
         mf.src = u
         mf.style.display = 'block'
         setTimeout(function() {

@@ -1,0 +1,57 @@
+body {
+    font: normal 12px system-ui;
+    text-align: center;
+    height: 100%
+    padding: 0px 10px;
+    min-width: 300px;
+}
+
+a, a:visited {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0B84FF;
+}
+
+.h {
+    font-weight: bold;
+}
+
+ul {
+    padding: 0 0 0 5px;
+    margin: 0;
+    list-style: square;
+}
+
+li {
+    margin: 0 0 0 10px;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+html {
+    color: var(--ctext);
+    font-size: 12px;
+}
+
+:root {
+    color-scheme: light dark;
+    --ctext: #646464;
+}
+
+ul{
+  padding-left:0;
+}
+
+li{
+  list-style:none;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ctext: #B4B4B4;
+    }
+}

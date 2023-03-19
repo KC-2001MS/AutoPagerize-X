@@ -1,63 +1,55 @@
 {
-    "manifest_version": 3,
-    "default_locale": "en",
-
-    "name": "__MSG_name__",
-    "description": "__MSG_description__",
-    "version": "1.0",
-
-    "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png",
-        "256": "images/icon-256.png",
-        "512": "images/icon-512.png"
-    },
-    "page_action": {
-      "default_title": "Autopagerize for Chrome",
-      "default_popup": "popup.html",
-      "default_icon": "images/icon-16.png"
-    },
-    "background": {
-      "page": "background.html",
-      "persistent": false
-    },
-    "options_ui": { "page": "options.html" },
-    "homepage_url": "http://autopagerize.net/",
-    "content_scripts": [
-      {
-        "js": [
-          "extension.js",
-          "autopagerizeuser.js"
-        ],
-        "matches": [
-          "http://*/*",
-          "https://*/*"
-        ],
-        "run_at": "document_end"
-      }
-    ],
-
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
-            "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png",
-            "48": "images/toolbar-icon-48.png",
-            "72": "images/toolbar-icon-72.png"
-        }
-    },
-
-    "permissions": [
-      "http://wedata.net/*",
-      "tabs"
-    ],
-    
-    "web_accessible_resources": [
-      "error.html",
-      "loading.html",
-      "loading.gif"
-    ]
+  "manifest_version": 2,
+  "homepage_url": "http://autopagerize.net/",
+  "content_scripts": [
+    {
+      "js": [
+        "extension.js",
+        "autopagerize.user.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "description": "__MSG_description__",
+  "name": "__MSG_name__",
+  "permissions": [
+    "http://wedata.net/*",
+    "tabs"
+  ],
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "options_ui": { "page": "options.html" },
+  "version": "0.3.9",
+  "icons": {
+      "48": "images/icon-48.png",
+      "96": "images/icon-96.png",
+      "128": "images/icon-128.png",
+      "256": "images/icon-256.png",
+      "512": "images/icon-512.png"
+  },
+  "page_action": {
+    "default_title": "Autopagerize for Chrome",
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "images/toolbar-icon-16.png",
+        "19": "images/toolbar-icon-19.png",
+        "32": "images/toolbar-icon-32.png",
+        "38": "images/toolbar-icon-38.png",
+        "48": "images/toolbar-icon-48.png",
+        "72": "images/toolbar-icon-72.png"
+    }
+  },
+  "default_locale": "en",
+  "web_accessible_resources": [
+    "error.html",
+    "loading.html",
+    "loading.gif"
+  ]
 }
+
