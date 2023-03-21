@@ -4,7 +4,9 @@ A Safari extension for automatically loading paginated web pages, converted from
 ## Source of code
 [AutoPagerize for Chrome](https://github.com/swdyh/autopagerize_for_chrome)
 ## Available Environment
-iOS 16, macOS 13
+- iOS 16
+- iPadOS 16
+- macOS 13
 
 ## License
 The code cited is under the "GNU General Public License v3.0". Therefore, this repository also uses "GNU General Public License v3.0".
