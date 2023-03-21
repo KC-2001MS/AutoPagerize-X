@@ -88,6 +88,8 @@ struct ContentView: View {
                             .bold()
                             .foregroundColor(.blue)
                         Text("Extension Source Contents")
+                        Link("Autopagerize",
+                             destination: URL(string: "http://autopagerize.net")!)
                     }
                 }
                 .padding()

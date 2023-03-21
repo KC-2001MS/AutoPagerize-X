@@ -149,6 +149,7 @@ AutoPager.prototype.initMessageBar = function() {
     frame.style.bottom = '0px'
     frame.style.left = '0px'
     frame.style.height = '25px'
+    frame.style.paddingBottom = "env(safe-area-inset-bottom)"
     frame.style.border = '0px'
     frame.style.opacity = '0.8'
     frame.style.zIndex = '1000'
