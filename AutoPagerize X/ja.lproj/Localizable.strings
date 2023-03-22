@@ -24,8 +24,8 @@ AutoPagerize Xは対応する様々なWebサイトで利用できます。もう
 "Step2 Contents" = "拡張機能画面もしくは機能拡張タブ上にある「AutoPagerize X」という項目をオンにします。";
 "Step3 Title" = "Step3 アクセスを許可";
 "Step3 Contents" = "アクセス権の項目から、「すべてのWebサイト」または「その他のWebサイト」のアクセスを許可します。";
-"Step4 Title" = "Step4 ブロックする単語を追加";
-"Step4 Contents" = "このアプリ内にある設定画面で、ブロックする単語を登録します。";
+"Step4 Title" = "Step4 オプション画面から設定を変更する";
+"Step4 Contents" = "拡張機能画面もしくは拡張機能タブ上にある「環境設定」ボタンを押下することでオプション画面に遷移します。";
 "Extension Source" = "拡張機能のソースについて";
 "Extension Source Contents" = "この拡張機能は、「AutoPagerize」拡張機能を元として開発された派生版となります。そのため、このアプリケーションのコード部分はOSSの規約に従います。";
 "※ Contents" = "※データベースに登録されていないURLでは、この拡張機能が機能しない場合がございます。";

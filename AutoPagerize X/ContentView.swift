@@ -52,14 +52,28 @@ struct ContentView: View {
                                 .font(.title2)
                                 .bold()
                                 .foregroundColor(.blue)
+                            
                             Text("Step1 Contents")
+                            
+                            Image("Safari Settings")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(maxHeight: 500)
+                                .padding()
                         }
                         VStack(alignment: .leading,spacing: 5) {
                             Text("Step2 Title")
                                 .font(.title2)
                                 .bold()
                                 .foregroundColor(.blue)
+                            
                             Text("Step2 Contents")
+                            
+                            Image("Extention On")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(maxHeight: 500)
+                                .padding()
                             
                         }
                         VStack(alignment: .leading,spacing: 5) {
@@ -67,7 +81,14 @@ struct ContentView: View {
                                 .font(.title2)
                                 .bold()
                                 .foregroundColor(.blue)
+                            
                             Text("Step3 Contents")
+                            
+                            Image("Web Permission")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(maxHeight: 500)
+                                .padding()
                         }
                         
                         VStack(alignment: .leading,spacing: 5) {

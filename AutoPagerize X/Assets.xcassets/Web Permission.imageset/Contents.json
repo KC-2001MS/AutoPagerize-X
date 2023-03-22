@@ -1,46 +1,105 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "3x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "macOS_Web_Permission_EN.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
       "locale" : "en",
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "locale" : "en",
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "locale" : "en",
       "scale" : "3x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "ipad",
+      "locale" : "en",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "locale" : "en",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "macOS_Web_Permission_EN 1.png",
+      "idiom" : "mac",
+      "locale" : "en",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "locale" : "en",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
       "locale" : "ja",
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "locale" : "ja",
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "locale" : "ja",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "locale" : "ja",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "locale" : "ja",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "macOS_Web_Permission_JP.png",
+      "idiom" : "mac",
+      "locale" : "ja",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "locale" : "ja",
+      "scale" : "2x"
     }
   ],
   "info" : {
