@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "iOS_Safari_Settings_EN 3.png",
       "idiom" : "iphone",
       "scale" : "1x"
     },
@@ -13,6 +14,7 @@
       "scale" : "3x"
     },
     {
+      "filename" : "iOS_Safari_Settings_EN 2.png",
       "idiom" : "ipad",
       "scale" : "1x"
     },
@@ -30,6 +32,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "iOS_Safari_Settings_EN 1.png",
       "idiom" : "iphone",
       "locale" : "en",
       "scale" : "1x"
@@ -45,6 +48,7 @@
       "scale" : "3x"
     },
     {
+      "filename" : "iOS_Safari_Settings_EN.png",
       "idiom" : "ipad",
       "locale" : "en",
       "scale" : "1x"
@@ -66,6 +70,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "iOS_Safari_Settings_JP 1.png",
       "idiom" : "iphone",
       "locale" : "ja",
       "scale" : "1x"
@@ -81,6 +86,7 @@
       "scale" : "3x"
     },
     {
+      "filename" : "iOS_Safari_Settings_JP.png",
       "idiom" : "ipad",
       "locale" : "ja",
       "scale" : "1x"

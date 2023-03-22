@@ -23,9 +23,9 @@ AutoPagerize X is available for a variety of supported websites. There is no nee
 "Step2 Title" = "Step 2: Enable Extensions";
 "Step2 Contents" = "urn on the item \"AutoPagerize X\" on the Extensions screen or Extensions tab.";
 "Step3 Title" = "Step 3: Permit Sccess";
-"Step3 Contents" = "From the Access Rights section, allow access to \"All Web Sites\" or \"Other Web Sites\".";
+"Step3 Contents" = "From the Access Rights section, grant access to \"All Web Sites\" or \"Other Web Sites\". If necessary, allow access to \"wedata.net\".";
 "Step4 Title" = "Step 4: Change settings from the options screen";
-"Step4 Contents" = "Clicking the \"Preferences\" button on the Extensions screen or on the Extensions tab will take you to the Options screen.";
+"Step4 Contents" = "Clicking the \"Extension Settings\" button on the Extensions screen or on the Extensions tab will take you to the Options screen.";
 "Extension Source" = "About the Source of the Extension";
 "Extension Source Contents" = "This extension is a derivative of the \"AutoPagerize\" extension. As such, the code portion of this application is subject to OSS conventions.";
 "※ Contents" = "*This extension may not work with URLs that are not registered in the database.";
