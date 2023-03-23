@@ -3,8 +3,8 @@ A Safari extension for automatically loading paginated web pages, converted from
 
 # How it works
 Websites that would otherwise have required the following screen transitions are now loaded automatically.
-![before](/"before.png")
-![after]("/after.png")
+![before](before.png)
+![after](after.png)
 Also, by changing the settings, it is possible to display a message bar when loading the next page, or to specify URLs that do not run this extension.
 
 ## Source of code
