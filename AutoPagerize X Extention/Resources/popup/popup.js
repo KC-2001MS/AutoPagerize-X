@@ -7,7 +7,7 @@ function toggle() {
 }
 function openOptionsPage() {
     window.close()
-    window.open('options.html')
+    window.open('/options/options.html')
 }
 function init() {
     var settings = JSON.parse(localStorage['settings'])

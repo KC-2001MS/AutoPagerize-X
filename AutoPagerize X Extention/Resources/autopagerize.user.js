@@ -158,7 +158,7 @@ AutoPager.prototype.initMessageBar = function() {
     this.messageFrame = frame
 
     // Replaced code
-    var u = browser.runtime.getURL("loading.html");
+    var u = browser.runtime.getURL("messageBar/loading.html");
     /* This code does not work with Safari extensions, so convert to the code above
      
     // no icon.
@@ -373,7 +373,7 @@ AutoPager.prototype.error = function() {
         var mf = this.messageFrame
         
         // Replaced code
-        var u = browser.runtime.getURL("error.html");
+        var u = browser.runtime.getURL("messageBar/error.html");
         /* This code does not work with Safari extensions, so convert to the code above
          
         var u = 'data:text/html;base64,PGh0bWw+CjxoZWFkPgo8c3R5bGU+CmJvZHkgewogIG1hcmdpbjogMDsKICBwYWRkaW5nOiA0cHggMCAwIDEwcHg7CiAgY29sb3I6ICNmZmY7CiAgYmFja2dyb3VuZC1jb2xvcjogI2EwMDsKICBmb250LXNpemU6IDEycHg7CiAgdGV4dC1hbGlnbjogY2VudGVyOwp9CmltZyB7CiAgdmVydGljYWwtYWxpZ246IHRvcDsKfQo8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5PkVycm9yITwvYm9keT4KPC9odG1sPgo='

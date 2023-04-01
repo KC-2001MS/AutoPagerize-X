@@ -34,8 +34,8 @@
       "open_in_tab" : true
   },
   "page_action": {
-    "default_title": "Autopagerize for Chrome",
-    "default_popup": "popup.html",
+    "default_title": "Autopagerize X",
+    "default_popup": "popup/popup.html",
     "default_icon": {
         "16": "images/toolbar-icon-16.png",
         "19": "images/toolbar-icon-19.png",
@@ -60,9 +60,7 @@
     "tabs"
   ],
   "web_accessible_resources": [
-    "error.html",
-    "loading.html",
-    "loading.gif"
+    "messageBar/*"
   ]
 }
 
