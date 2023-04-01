@@ -1,8 +1,17 @@
 # AutoPagerize X
 A Safari extension for automatically loading paginated web pages, converted from AutoPagerize for Chrome to work with Safari extensions.
 
+# How it works
+Websites that would otherwise have required the following screen transitions are now loaded automatically.
+![before](before.png)
+![after](after.png)
+Also, by changing the settings, it is possible to display a message bar when loading the next page, or to specify URLs that do not run this extension.
+
 ## Source of code
+We have created this application based on the following source code
+
 [AutoPagerize for Chrome](https://github.com/swdyh/autopagerize_for_chrome)
+
 ## Available Environment
 - iOS 16
 - iPadOS 16
@@ -17,6 +26,9 @@ If you want to improve this project, please join us.
 *If you do not receive any response to your pull request in GitHub, please contact us at the following email.
 
 ## Contact
+Basically, you can contact us about this application on this GitHub.
+If you do not get a response, please contact us at the following email address
+
 [Mail: iroiro.work1234@gmail.com](mailto:hello@example.com?subject=AutoPagerize+X)
 
 ## Copyright
