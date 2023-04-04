@@ -888,7 +888,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 7AA87AZ875;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AutoPagerize X Extention iOS/Info.plist";
@@ -919,7 +919,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 7AA87AZ875;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AutoPagerize X Extention iOS/Info.plist";
@@ -952,7 +952,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AutoPagerize X Extention macOS/AutoPagerize_X_Extention_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7AA87AZ875;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -985,7 +985,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AutoPagerize X Extention macOS/AutoPagerize_X_Extention_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7AA87AZ875;
 				ENABLE_HARDENED_RUNTIME = YES;
